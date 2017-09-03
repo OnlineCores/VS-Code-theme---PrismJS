@@ -77,7 +77,7 @@ pre[class*="language-"] {
 
 .token.punctuation,
 .token.operator {
-    color: #9B9B9B;
+    color: #DCDCDC;
     /* no highlight */
 }
 
@@ -234,3 +234,11 @@ pre.line-numbers {
     padding-right: .8em;
     text-align: right
 }
+/* CSS */
+code.language-css .token.selector > .token.class{color:#ffc66d;}
+code.language-css .token.selector{color:#ffc66d;}
+code.language-css .token.selector > .token.attribute{color:#dedede;}
+code.language-css .token.selector > .token.pseudo-class{color:#ffc66d;}
+code.language-css .token.selector > .token.pseudo-element
+{color:#ffc66d;}
+code.language-css .token.url{color:#D69D85;}
